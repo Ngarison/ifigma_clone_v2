@@ -5,6 +5,7 @@
 
 body{
     background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-header{
@@ -21,17 +22,17 @@ body{
 }
 
 .logo{
-    width: 250px;
+    width: 320px;
 }
+
 .logo:hover{
     cursor: pointer;
 }
 
 .btn-div{
     background-color: #75a0e1;
-    font-weight: bold;
     color: white;
-    width: 130px;
+    width: 120px;
     height: 40px;
     text-align: center;
     padding-top: 2px;
@@ -80,7 +81,7 @@ body{
 
 label{
     font-size: 25px;
-    margin-left: 50px;
+    margin-right: 180px;
 }
 label:hover{
     cursor: pointer;
@@ -94,7 +95,7 @@ label:hover{
     justify-content: space-around;
     width: 100%;
     height:73.4vh ;
-    background-color: #e1f3ff;
+    background-color: #ddeef7;
     border-radius: 30px;
     border-radius: 30px;
 }
@@ -103,6 +104,10 @@ label:hover{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-left: 100px;
+}
+.div-main-img{
+    margin-right: 220px;
 }
 
 .div-text1{
@@ -116,12 +121,13 @@ label:hover{
 }
 
 .div-text2{
-    width: 500px;
+    width: 550px;
     font-size: 25px;
 }
 
 .div-text3{
     width: 600px;
+    color: #616567;
 }
 
 .mes-boutons{
@@ -157,8 +163,10 @@ padding-top: 15px;
 border-radius: 7px;
 position: relative;
 }
-.howItWorks{
+.howItWorks:hover{
     cursor: pointer;
+    background-color: #75a0e1 ;
+    color: white;
 }
 
 .fleche{
@@ -179,4 +187,172 @@ position: relative;
 .main-img{
     height: 350px;
 
+}
+
+
+/*Partie discovery*/
+
+.discovery-part{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.discov-img{
+    width: 600px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+.discov-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 200px;
+}
+
+.btn-discov{
+    background-color: #75a0e1;
+    color: white;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    box-shadow:0px 5px 5px 0px #e3dcdc;
+    border: 1px solid white;
+}
+
+.discov-h1-1{
+    width: 500px;
+}
+
+.discov-p-1{
+    width: 430px;
+    color: #828282;
+}
+
+.person-text-p{
+    width: 380px;
+    color: #3d3d3d;
+}
+
+
+.presentation-div{
+   display: flex;
+   flex-direction: column; 
+   gap: 30px;
+}
+
+.person-div{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.person-text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*Milieu part*/
+
+.milieu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.milieu-h1{
+    width: 430px;
+}
+
+.milieu-p{
+    width: 600px;
+    text-align: center;
+    color: #807e7e;
+}
+
+/*Equipe*/
+
+.equipe-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.equip-person-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.equip-person-text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.equip-person-text-p{
+    width: 280px;
+    color: #807e7e;
+}
+
+.p1{
+margin-left: 150px;
+}
+.p3{
+margin-right: 180px;
+}
+
+/*Partie Footer*/
+.footer-liens-div{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-lien-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.l1{
+    margin-left: 200px;
+}
+
+.l2{
+    margin-left: -40px;
+}
+.l3{
+    margin-right: 50px;
+}
+.l4{
+    margin-right: 300px;
+}
+
+li{
+    padding-bottom: 10px;
+    list-style: none;
+    color: #807e7e;
+}
+
+
+
+.copyright{
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #75a0e1;
+    color: white;
+    padding-top: 50px;
 }
